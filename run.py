@@ -9,7 +9,7 @@ import sys
 #Podaj login:
 login = ''
 #Podaj hasło:
-pass = ''
+passw = ''
 #Podaj maila:
 mail = ''
 
@@ -21,7 +21,7 @@ values = {
     'func': 'bor-hold',
     'adm_library': 'MBP50',
     'bor_id': login,
-    'bor_verification': pass,
+    'bor_verification': passw,
     'bor_library': 'MBP50'
     }
 data = urllib.urlencode(values)
